@@ -17,9 +17,9 @@ public class LogoutController {
 		
 		//setting all view object as null
 		mv.addObject("userName", null);
-		mv.addObject("fromAirportCodes", null);
-		mv.addObject("toAirportCodes", null);
-		mv.addObject("searchResult", null);
+		mv.addObject("deptLoc", null);
+		mv.addObject("arivLoc", null);
+		mv.addObject("availableFlights", null);
 		mv.setViewName("login");
 		
 		return mv;
